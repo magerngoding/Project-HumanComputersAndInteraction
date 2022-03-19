@@ -1,0 +1,268 @@
+body
+{
+    margin : 0;
+}
+
+.logo
+{
+    height:300%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.header
+{
+    background: linear-gradient(to bottom, #9f40e2 0%, #e877bf  100%);
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 25px;
+}
+
+.navigation
+{
+    display: flex;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Home
+{
+    margin-left:2%;
+    color:white;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+    
+a{
+    text-decoration:tomato;
+ }
+    
+.home:hover {
+   
+    background: red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+    transition: 0.2s ease-in-out;
+}
+
+.Testimoni{
+    padding: 1w0px;
+    margin-left:2%;
+    color:white;
+}
+
+.Testimoni:hover{
+    background: red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+    transition: 0.2s ease-in-out;
+}
+
+.K-pop
+{
+    padding: 1w0px;
+    margin-left:2%;
+    color:white;
+
+}
+
+.K-pop:hover{
+    background: red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+    transition: 0.2s ease-in-out;
+}
+
+.Merchandise
+{
+    padding: 1w0px;
+    margin-left:2%;
+    color:white;
+}
+
+.Merchandise:hover{
+    background: red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+    transition: 0.2s ease-in-out;
+}
+
+
+.Merchandise div{
+    background-color:#ffffff;
+    visibility:hidden;
+    position:absolute;
+}
+    
+.Merchandise:hover div{
+    visibility:visible;
+}
+    
+.Merchandise div a{
+    display:block;
+    text-decoration:none;
+    padding:8px;
+    color:black;
+    transition:0.01s;
+    white-space:nowrap;
+}
+    
+.Merchandise div a:hover{
+    background-color: red;
+    color:black;
+}
+
+.Register
+{
+    padding: 1w0px;
+    margin-left:2%;
+    color:white;
+}
+.Register:hover{
+    background:red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+    transition: 0.2s ease-in-out;
+}
+
+
+.Banner
+{
+    display: flex;
+}
+
+.text-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'algerian';
+    margin-top: 0px;
+    font-size: 29px;
+    color:dodgerblue;
+    background-color: lightpink;
+}
+
+.picture-product{
+    display: inline-block;
+    justify-content: space-between;
+     height: 1100px;
+     width: 100%;
+     background-color:lightpink;
+   }
+   
+.nct127-1 {
+    display: flex;
+    height: auto;
+    width: 150%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.item1{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 5%;
+    color: white;
+    vertical-align: middle;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.nct127-2 {
+    display: flex;
+    height: auto;
+    width: 150%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.item2{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 5%;
+    color: white;
+    vertical-align: middle;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.nct127-3 {
+    display: flex;
+    height: auto;
+    width: 150%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.item3{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 5%;
+    color: white;
+    vertical-align: middle;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.nct127-4 {
+    display: flex;
+    height: auto;
+    width: 150%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.item4{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 5%;
+    color: white;
+    vertical-align: middle;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.text-4
+{
+    font-size: 20px;
+    font-family: 'arial';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer
+{
+    background: linear-gradient(to bottom, #e877bf 0%, #9f40e2  100%);
+    padding: 2%;
+}
+
+.pictures-2
+{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.CR
+{
+    font-size: 20px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+
+}
